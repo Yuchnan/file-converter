@@ -92,12 +92,12 @@ const Landing = () => {
                         </span>
                     </div>
                     <a
-                        href="https://github.com/Yuchnan/file-converter"
+                        href="https://github.com/Yuchnan"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-xs text-white/25 transition-colors hover:text-white/50"
                     >
-                        GitHub
+                        r.Yuchnan
                     </a>
                 </header>
 

@@ -1,26 +1,28 @@
-﻿# File Converter
-**Step 1:** Fork and clone this repository.
+# File Converter
+
+> Convert files instantly in your browser — no uploads, no servers.
+
+Supports **Image** (PNG, JPG, WEBP), **Document** (Word ↔ PDF), **Data** (CSV ↔ JSON), and **Text** (Markdown ↔ TXT) conversions.  
+All processing runs 100% client-side using Canvas API, mammoth.js, pdf.js, and native JavaScript.
+
+## Tech Stack
+
+- **React** + **TypeScript** + **Vite**
+- **Tailwind CSS v4** (shadcn-style UI)
+- **Lucide React** (icons)
+- **react-dropzone** (drag-and-drop)
+
+## Getting Started
 
 ```bash
-  git clone https://github.com/Yuchnan/file-converter.git
+git clone https://github.com/Yuchnan/file-converter.git
+cd file-converter
+npm install
+npm run dev
 ```
-**Step 2:** Install node_modules dependencies.
+
+## Build
 
 ```bash
-  cd FE-React
-  npm install
-```
-**Step 3:** Create python virtual environment and activate it.
-
-```bash
-  cd ../BE-flask
-  python -m venv venv
-```
-```bash
-  venv\Scripts\activate
-```
-**Step 4:** Install pip dependencies.
-
-```bash
-  pip install -r requirements.txt
+npm run build
 ```
